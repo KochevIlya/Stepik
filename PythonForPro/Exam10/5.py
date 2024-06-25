@@ -1,11 +1,8 @@
-def merge(values):
+def merge(value):
     result = {}
-    for elem in values:
-        for i in elem:
-            if i in result:
-                result[i].add(elem[i])
-            else:
-                result[i] = set()
-                result[i].add(elem[i])
-
+    for i in value:
+        for key, val in i.items():
+            temp = result.get(key,set())
+            temp.add(val)
+            result[key] = temp
     return result
