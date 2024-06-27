@@ -24,7 +24,7 @@ def generate_passwords(count, length):
         alpha = False
         digit = False
         bigAlpha = False
-        while alpha != True and digit != True and bigAlpha != True:
+        while alpha != True or digit != True or bigAlpha != True:
             generated = generate_password(length)
             alpha = False
             digit = False
