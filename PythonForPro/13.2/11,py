@@ -1,0 +1,12 @@
+from fractions import Fraction as F
+
+n = int(input())
+sum = 0
+num = F(1, 1)
+znam = 1
+count = 1
+for i in range(1, n + 1):
+    znam *= count
+    count += 1
+    sum += F(1, znam)
+print(sum)
