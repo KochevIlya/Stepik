@@ -16,7 +16,6 @@ def draw_fill_rectangle(height, width, color):
     turtle.end_fill()
     turtle.pu()
     turtle.setpos(x, y)
-    turtle.dot()
     turtle.pd()
 
 def draw_fill_triangle(height, color):
