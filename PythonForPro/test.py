@@ -1,5 +1,4 @@
-def fancy(length, char1='-', char2='*'):
-    return (char1 + char2) * length + char1
+result = list(map(lambda x: x.split(), ['a', 'a b', 'a b c']))
 
 
-print(fancy(char2='!'))
+print(result)
