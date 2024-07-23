@@ -1,3 +1,4 @@
-result = list(filter(str.swapcase, ['a', '1', '', 'b', '2']))
-
-print(result)
+with open('input.txt', encoding='utf-8') as file:
+    print('Repeat after me:', file.readline().strip())
+    for line in file:
+        print(line.strip() + '!')
