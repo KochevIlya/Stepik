@@ -1,0 +1,23 @@
+/* Сброс отступов и полей для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header img{
+    float: left;
+    
+}
+header{
+    margin-top: 0px;
+    padding: 0%;
+    height: 84px;
+    width: 100%;
+    background-color: #007765;
+}
+header div{
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font
+}
