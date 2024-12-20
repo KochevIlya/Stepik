@@ -166,12 +166,6 @@
             <mxPoint x="635" y="504.72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p7_cZ7I1jD_APD1XZmCC-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="940" y="478.72" as="sourcePoint" />
-            <mxPoint x="975" y="478.72" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="p7_cZ7I1jD_APD1XZmCC-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="334" as="sourcePoint" />
@@ -222,6 +216,12 @@
         </mxCell>
         <mxCell id="p7_cZ7I1jD_APD1XZmCC-38" value="с&lt;sub&gt;m2&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="414" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_cZ7I1jD_APD1XZmCC-39" value="Объём производства" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="310" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_cZ7I1jD_APD1XZmCC-40" value="Спрос" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
